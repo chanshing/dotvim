@@ -1,5 +1,4 @@
 set nocp
-set guioptions-=T "remove toolbar
 set backspace=indent,eol,start
 set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=en
@@ -12,8 +11,9 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 set termencoding=utf-8
 set winaltkeys=no
 set autochdir
-filetype plugin indent on
+execute pathogen#infect()
 syntax on
+filetype plugin indent on
 set hidden
 set incsearch ignorecase hlsearch
 set shiftwidth=4 softtabstop=4 tabstop=4
