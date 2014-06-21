@@ -43,12 +43,10 @@ let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_fold=1
 let fortran_fold_conditionals=1
-hi Comment guifg=#939393
 hi CursorLine term=underline cterm=underline guibg=#E8F2FE
 hi Folded term=standout ctermfg=4 ctermbg=7 guifg=DarkBlue guibg=White
 
 "============== Remaps ================
-
 " Replace under cursor 
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 " Press space to clear search highlighting and any message already displayed.
@@ -110,8 +108,6 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 nnoremap Y y$
 vmap u <Nop>
 vmap U <Nop>
-" Toggle spellcheck
-map <F7> :setlocal spell! spelllang=es<CR>
 
 "=============== CMDs & ABBR ===============
 "cabbrev mendieta scp://mendieta/~
