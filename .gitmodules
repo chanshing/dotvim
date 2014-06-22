@@ -13,3 +13,9 @@
 [submodule "bundle/unimpared"]
 	path = bundle/unimpared
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vim-repeat"]
+	path = vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/repeat"]
+	path = bundle/repeat
+	url = https://github.com/tpope/vim-repeat.git
